@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5454322C23EE1DC500218377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454322B23EE1DC500218377 /* AppDelegate.swift */; };
 		5454322E23EE1DC500218377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454322D23EE1DC500218377 /* SceneDelegate.swift */; };
-		5454323023EE1DC500218377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454322F23EE1DC500218377 /* ViewController.swift */; };
+		5454323023EE1DC500218377 /* GamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454322F23EE1DC500218377 /* GamesTableViewController.swift */; };
 		5454323323EE1DC500218377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5454323123EE1DC500218377 /* Main.storyboard */; };
 		5454323523EE1DC800218377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5454323423EE1DC800218377 /* Assets.xcassets */; };
 		5454323823EE1DC800218377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5454323623EE1DC800218377 /* LaunchScreen.storyboard */; };
+		5454324023EE1F2900218377 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454323F23EE1F2900218377 /* GamesTableViewCell.swift */; };
+		5454324223EE217B00218377 /* ButtonsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5454324123EE217B00218377 /* ButtonsTableView.swift */; };
+		CBC5BC0AE32D203DF97ED099 /* Pods_TesteJsonSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB6A52B0FFD569EA41A3F1F /* Pods_TesteJsonSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D2BAA8278AAAB1F48816036 /* Pods-TesteJsonSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteJsonSearch.release.xcconfig"; path = "Target Support Files/Pods-TesteJsonSearch/Pods-TesteJsonSearch.release.xcconfig"; sourceTree = "<group>"; };
 		5454322823EE1DC500218377 /* TesteJsonSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteJsonSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5454322B23EE1DC500218377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5454322D23EE1DC500218377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5454322F23EE1DC500218377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5454322F23EE1DC500218377 /* GamesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewController.swift; sourceTree = "<group>"; };
 		5454323223EE1DC500218377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5454323423EE1DC800218377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5454323723EE1DC800218377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5454323923EE1DC800218377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5454323F23EE1F2900218377 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
+		5454324123EE217B00218377 /* ButtonsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsTableView.swift; sourceTree = "<group>"; };
+		DBB6A52B0FFD569EA41A3F1F /* Pods_TesteJsonSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteJsonSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC857BDE3182593D496C0368 /* Pods-TesteJsonSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteJsonSearch.debug.xcconfig"; path = "Target Support Files/Pods-TesteJsonSearch/Pods-TesteJsonSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC5BC0AE32D203DF97ED099 /* Pods_TesteJsonSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23C738D1BBBF542CEE48664A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6A52B0FFD569EA41A3F1F /* Pods_TesteJsonSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5454321F23EE1DC500218377 = {
 			isa = PBXGroup;
 			children = (
 				5454322A23EE1DC500218377 /* TesteJsonSearch */,
 				5454322923EE1DC500218377 /* Products */,
+				E9B95566A17C700B7B309609 /* Pods */,
+				23C738D1BBBF542CEE48664A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,24 @@
 			children = (
 				5454322B23EE1DC500218377 /* AppDelegate.swift */,
 				5454322D23EE1DC500218377 /* SceneDelegate.swift */,
-				5454322F23EE1DC500218377 /* ViewController.swift */,
 				5454323123EE1DC500218377 /* Main.storyboard */,
 				5454323423EE1DC800218377 /* Assets.xcassets */,
 				5454323623EE1DC800218377 /* LaunchScreen.storyboard */,
 				5454323923EE1DC800218377 /* Info.plist */,
+				5454322F23EE1DC500218377 /* GamesTableViewController.swift */,
+				5454323F23EE1F2900218377 /* GamesTableViewCell.swift */,
+				5454324123EE217B00218377 /* ButtonsTableView.swift */,
 			);
 			path = TesteJsonSearch;
+			sourceTree = "<group>";
+		};
+		E9B95566A17C700B7B309609 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC857BDE3182593D496C0368 /* Pods-TesteJsonSearch.debug.xcconfig */,
+				4D2BAA8278AAAB1F48816036 /* Pods-TesteJsonSearch.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5454323C23EE1DC800218377 /* Build configuration list for PBXNativeTarget "TesteJsonSearch" */;
 			buildPhases = (
+				31A1551385EC34271A98ACD1 /* [CP] Check Pods Manifest.lock */,
 				5454322423EE1DC500218377 /* Sources */,
 				5454322523EE1DC500218377 /* Frameworks */,
 				5454322623EE1DC500218377 /* Resources */,
+				C29AEC9BBCCED84B3A28AC6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +165,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31A1551385EC34271A98ACD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TesteJsonSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C29AEC9BBCCED84B3A28AC6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TesteJsonSearch/Pods-TesteJsonSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TesteJsonSearch/Pods-TesteJsonSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TesteJsonSearch/Pods-TesteJsonSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5454322423EE1DC500218377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5454323023EE1DC500218377 /* ViewController.swift in Sources */,
+				5454323023EE1DC500218377 /* GamesTableViewController.swift in Sources */,
+				5454324223EE217B00218377 /* ButtonsTableView.swift in Sources */,
 				5454322C23EE1DC500218377 /* AppDelegate.swift in Sources */,
 				5454322E23EE1DC500218377 /* SceneDelegate.swift in Sources */,
+				5454324023EE1F2900218377 /* GamesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,7 @@
 		};
 		5454323D23EE1DC800218377 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC857BDE3182593D496C0368 /* Pods-TesteJsonSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +377,7 @@
 		};
 		5454323E23EE1DC800218377 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2BAA8278AAAB1F48816036 /* Pods-TesteJsonSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
